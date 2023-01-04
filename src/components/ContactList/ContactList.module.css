@@ -1,0 +1,23 @@
+.list {
+  padding-left: 13px;
+}
+
+.item {
+  font-weight: 500;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.button {
+  margin-left: 15px;
+  border-radius: 3px;
+  cursor: pointer;
+  color: white;
+  background-color: darkblue;
+}
+
+.button:hover {
+  color: darkblue;
+  border-color: darkblue;
+  background-color: azure;
+}
