@@ -2,10 +2,10 @@ import React from 'react';
 import css from './ContactList.module.css';
 import PropTypes from 'prop-types';
 
-const ContactList = ({ onContacts, onDeleteContact }) => {
+const ContactList = ({ contacts, onDeleteContact }) => {
   return (
     <ul className={css.list}>
-      {onContacts.map(({ id, name, number }) => {
+      {contacts.map(({ id, name, number }) => {
         return (
           <li className={css.item} key={id}>
             {name}: {number}
